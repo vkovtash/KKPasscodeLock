@@ -252,7 +252,7 @@
         
 		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
 			nav.modalPresentationStyle = UIModalPresentationFormSheet;
-			nav.navigationBar.barStyle = UIBarStyleBlack;
+			nav.navigationBar.barStyle = UIBarStyleDefault;
 			nav.navigationBar.opaque = NO;
 		} else {
 			nav.navigationBar.tintColor = self.navigationController.navigationBar.tintColor;
@@ -280,7 +280,7 @@
 		
 		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
 			nav.modalPresentationStyle = UIModalPresentationFormSheet;
-			nav.navigationBar.barStyle = UIBarStyleBlack;
+			nav.navigationBar.barStyle = UIBarStyleDefault;
 			nav.navigationBar.opaque = NO;
 		} else {
 			nav.navigationBar.tintColor = self.navigationController.navigationBar.tintColor;
